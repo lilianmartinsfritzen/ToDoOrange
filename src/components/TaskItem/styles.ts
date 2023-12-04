@@ -30,6 +30,7 @@ export const styles = StyleSheet.create({
   },
   taskText: {
     color: '#666',
+    textDecorationLine: 'none',
     fontFamily: 'Inter-Medium',
   },
   taskMarkerDone: {
