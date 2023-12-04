@@ -404,17 +404,20 @@ appcenter codepush release-react -a <ownerName>/MyApp-Android  --target-binary-v
 
 No exemplo abaixo fiz uma simulação de um usuário baixando o aplicativo direto da loja e começando a utilizá-lo, porém a aplicação subiu com um bug que causava o temido "crash" da aplicação. Gerando o fechamento repentino após o usuário desmarcar uma tarefa já marcada.
 
-![Exemplo de quebra do aplicativo em produção, causado por um bug.](https://github.com/lilianmartinsfritzen/ToDoOrange/assets/83084256/cd2f72f7-9c83-4934-82bd-a191c9eeacd1)
+- Exemplo de quebra do aplicativo em produção, causado por um bug.
+  https://github.com/lilianmartinsfritzen/ToDoOrange/assets/83084256/cd2f72f7-9c83-4934-82bd-a191c9eeacd1
 
 No próximo vídeo a pessoa desenvolvedora detecta o motivo do crash, faz a correção e executa o comando para atualização do aplicativo sem passar pela loja. Perceba que é necessário colocar o app em background inicialmente e ao abrir ele faz a atualização e reinicia o app. Todos esses passos são configuráveis conforme mencionado nas etapas de **Modos de instalação** e **Frequência de verificação**.
 
-![Correção de bug e atualização via CodePush.](https://github.com/lilianmartinsfritzen/ToDoOrange/assets/83084256/b1ec522d-eac2-4e36-a9dd-81e2048f2559)
+- Correção de bug e atualização via CodePush.
+  https://github.com/lilianmartinsfritzen/ToDoOrange/assets/83084256/b1ec522d-eac2-4e36-a9dd-81e2048f2559
 
 Já nesse último vídeo quis trazer um exemplo de que mesmo a nível Javascript, ou seja, mesmo sem poder corrigir bugs ou criar features que altere código nativo, o uso do OTA é bastante poderoso e pode ser um ótimo aliado quando falamos de ferramentas que vão auxiliar na disponibilidade da sua aplicação.
 
 Perceba que no caso abaixo criei um pequeno código que implementa um requisição buscando a minha lista de repositórios e exibindo-os em uma lista logo abaixo da implementação das tarefas, ou seja, isso nos abre portas para correções que de certa forma possam estar afetando buscas de produtos ou serviços a partir do aplicativo, de forma rápida e sem a necessidade de aguardar a liberação da loja.
 
-![Implementação de requisição e atualização via CodePush.](https://github.com/lilianmartinsfritzen/ToDoOrange/assets/83084256/18298843-922e-4dd1-a1b3-eec1521284b3)
+- Implementação de requisição e atualização via CodePush.
+  https://github.com/lilianmartinsfritzen/ToDoOrange/assets/83084256/18298843-922e-4dd1-a1b3-eec1521284b3
 
 <h2 id="#pesquisa">Referências de pesquisa</h2>
 
