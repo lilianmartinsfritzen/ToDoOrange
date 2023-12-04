@@ -400,7 +400,7 @@ Direcionar a atualização para usuários que estejam com uma versão específic
 appcenter codepush release-react -a <ownerName>/MyApp-Android  --target-binary-version "~1.1.0"
 ```
 
-#### Ilustração de atualização em produção
+#### Exemplo de atualização em produção
 
 No exemplo abaixo fiz uma simulação de um usuário baixando o aplicativo direto da loja e começando a utilizá-lo, porém a aplicação subiu com um bug que causava o temido "crash" da aplicação. Gerando o fechamento repentino após o usuário desmarcar uma tarefa já marcada.
 
