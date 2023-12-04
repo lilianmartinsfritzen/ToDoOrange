@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TodoOrange</string>
+    <string name="app_name">ToDoOrange</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">DeploymentKey</string>
 </resources>
